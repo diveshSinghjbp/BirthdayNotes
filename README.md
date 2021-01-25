@@ -2,6 +2,22 @@
 
 This code  will allow you to store friend names with DOB. So that we can get notifications and add to the calendar as well.
 
+CRUD Funtionlity with frined List:
+
+1. We can add frined notes
+2. we can popuplate those names in the list
+3. We can delete those name from the list by right swipe as table has default UI for delete.
+4. we can select any existing frind name and can update.
+
+Notification:
+We used local notification to check the name of birtday guys
+
+
+Sync with calendar
+When we save or update, it will add into calendar. that you can check with default calendar iOS app.
+
+
+
 We Used MVVM Design Pattern to make this application so that we can write modular code.
 
 This app supports both mode landscape and portrait.
